@@ -1,0 +1,24 @@
+{
+  "name": "mimolette",
+  "version": "1.0.0",
+  "description": "local Coffee shopwebsite",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss:assets/css"
+  },
+  "keywords": [
+    "coffee",
+    "shop",
+    "cafe"
+  ],
+  "author": "Stephanie Wang",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.63.6"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.14",
+    "bootstrap": "^5.3.0",
+    "postcss-cli": "^10.1.0"
+  }
+}

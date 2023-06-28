@@ -1,0 +1,30 @@
+nav{
+    margin:auto;
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    padding: 1.2rem 1rem;
+    
+    .nav-brand{
+        text-align: center;
+        max-width:100%;
+        height:auto;
+        border:0.3rem dashed rgba(227, 104, 38, 0.307);
+        border-radius:55%;
+        padding:0.4rem;
+        img{
+            width:100%;
+            margin:auto;
+            max-width:4.5em;
+    
+        }
+    }
+   
+    
+}
+@media screen and (min-width:480px){
+    .nav-brand{
+        font-size:clamp(1.5rem, 3vw, 3rem);
+    }
+}

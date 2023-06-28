@@ -1,0 +1,75 @@
+.main{
+    .cta-cb{
+        .btn{
+            background-color: #0ebac7;
+            outline:0;
+            border:0;
+            color:white;
+            padding:0.8rem 2rem;
+            border-radius:10px;
+            font-size:clamp(1.7rem, 3vw, 2rem);
+            font-weight: 400;
+            cursor:pointer;
+            transition:1s;
+        }
+        .btn:hover{
+            opacity:0.8;
+            border:3px solid white;
+            background-color: #93e5eb;
+            color:black;
+        
+
+        }
+    }
+    
+}
+
+// ----------------------------------------------------SLIDESHOW
+.slideshow-container_product .btn{
+    background-color: #d5fcff;
+    font-weight: bold;
+    font-style: bold;
+    border: black 0.2rem solid;
+    color: rgb(11, 11, 11);
+    padding: 0.8rem 1.6rem;
+    border-radius: 10px;
+    font-size: clamp(1.7rem, 3vw, 2rem);
+    font-weight: 700;
+    cursor: pointer;
+    transition: 1s;
+
+}
+.btn:hover{
+    opacity:0.8;
+    background-color: #0ebac7;
+    color:white;
+
+
+}
+
+// ------------------------------------------------FOOTER
+footer{
+    
+        .btn{
+            background-color: #bd0527;
+            outline:0;
+            border:0;
+            color:white;
+            padding:0.4rem 1.3rem;
+            border-radius:4px;
+            letter-spacing:0.11em;
+            font-size:clamp(1.7rem, 3vw, 2rem);
+            font-weight: 400;
+            cursor:pointer;
+            transition:1s;
+        }
+        .btn:hover{
+            opacity:0.8;
+            border:3px solid white;
+            background-color: #93e5eb;
+            color:black;
+        
+
+        }
+    
+}

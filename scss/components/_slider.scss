@@ -1,0 +1,325 @@
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 98%;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 1% 2.5%;
+  color: white;
+  font-weight: bold;
+  font-size:clamp(1.9rem, 3vw, 1.9rem);
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+// ---------------------------------------------SLIDER CAFEX
+.slideshow-container_cafe {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  .card{
+    color: #e6e612;
+    background-color: black;
+    margin: auto;
+    padding: 0.2em 3%;
+    width: 77.1%;
+    position: relative;
+    top: 50%;
+    left: 43.2%;
+    transform: translate(-60%,-78%);
+
+  }
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+.prev{
+  color:black;
+}
+.next{
+  color:black;
+  background-color: #bbb;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot_cafe {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: transparent;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 8s ease;
+}
+
+.active {
+  background-color: transparent;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+.hover-fadeout  img{
+  -webkit-transform: scale(0.9);
+	transform: scale(0.9);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+  margin:auto;
+  margin-bottom:5%;
+  max-width: 88%;
+}
+.hover-fadeout:hover img{
+  -webkit-transform: scale(0.9);
+	transform: scale(0.9);
+  max-width:90%;margin:auto;
+
+}
+.hover-fadeout_cafe  img{
+  -webkit-transform: scale(0.8);
+	transform: scale(0.8);
+	-webkit-transition: .3s ease-in-out;
+	transition: .4s ease-in-out;
+  margin:auto;
+  margin-bottom:5%;
+}
+.hover-test{
+  display:hidden;
+}
+.hover-fadeout_cafe:hover img{
+  -webkit-transform: scale(0.8);
+	transform: scale(0.8);
+  max-width:98%;margin:auto;
+  .hover-test{
+    display:block;
+    background-color: #f2f2f2;
+    color: #0d0d0d;
+  }
+
+}
+
+// .hover-fadeout img {
+// 	-webkit-transform: scale(1.5);
+// 	transform: scale(1.5);
+// 	-webkit-transition: .3s ease-in-out;
+// 	transition: .3s ease-in-out;
+// }
+// .hover-fadeout:hover img {
+// 	-webkit-transform: scale(1);
+// 	transform: scale(1);
+// }
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text_product  {font-size: 11px}
+}
+// -------------------------------------SLIDER PRODUCTS
+/* Slideshow container */
+.product-slider{
+display:block;
+
+.slideshow-container_product {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides_product {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev_product, .next_product {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next_product{
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev_product:hover, .next_product:hover {
+  background-color: rgb(183 170 170 / 80%);
+}
+
+/* Caption text */
+.text_product  {
+  color: #0d0d0d;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext_product {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot_product {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active_product, .dot_product:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade_product {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade_product {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+}
+.flex-product_parent{
+  display:none;
+}
+@media screen and (min-width:1020px){
+  .product-slider .slideshow-container_product{
+    display:block;
+  }
+    .product-slider  {
+    .dots{
+      display:block;
+    }
+  }
+  .product-slider {
+
+  .flex-product_parent{
+    display:block;
+    
+    .row-product{
+      display:flex;
+      flex-direction: row;
+    }
+    
+  }
+}
+}

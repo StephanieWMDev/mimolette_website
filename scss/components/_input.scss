@@ -1,0 +1,7 @@
+.footer-form form{
+    display:inline-flex;
+    align-items:center;
+    input{
+        font-size:clamp(1.8rem, 3vw, 2.1rem);
+    }
+}

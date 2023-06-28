@@ -1,0 +1,1458 @@
+@font-face {
+  font-family: "Oswald";
+  src: url("/Users/mac/Desktop/mimolette/images/Oswald-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: "Parlour";
+  src: url("/Users/mac/Desktop/mimolette/images/Parlour/Parlour-Regular.otf");
+}
+h1 {
+  font-size: clamp(2.4rem, 3vw, 3.2rem);
+}
+
+h2 {
+  font-size: clamp(1.8rem, 3vw, 2.8rem);
+}
+
+h3 {
+  font-size: clamp(1.6rem, 3vw, 2rem);
+}
+
+p {
+  font-size: clamp(1.2rem, 3vw, 1.8rem);
+}
+
+@media screen and (min-width: 375px) {
+  h1 {
+    font-size: clamp(2.6rem, 3vw, 3.4rem);
+  }
+  h2 {
+    font-size: clamp(2rem, 3vw, 3rem);
+  }
+  h3 {
+    font-size: clamp(1.8rem, 3vw, 2.2rem);
+  }
+  p {
+    font-size: clamp(1.3rem, 3vw, 1.9rem);
+  }
+  a {
+    font-size: clamp(1.7rem, 3vw, 2rem);
+  }
+}
+@media screen and (min-width: 390px) {
+  h1 {
+    font-size: clamp(3rem, 3vw, 3.4rem);
+  }
+  h2 {
+    font-size: clamp(2.3rem, 3vw, 3rem);
+  }
+  h3 {
+    font-size: clamp(2.1rem, 3vw, 2.2rem);
+  }
+  p {
+    font-size: clamp(1.9rem, 3vw, 1.9rem);
+  }
+  span.font-logo_span {
+    font-size: clamp(1.7rem, 3vw, 2rem);
+  }
+  a {
+    font-size: clamp(1.7rem, 3vw, 2rem);
+  }
+}
+@media screen and (min-width: 412px) {
+  h1 {
+    font-size: clamp(3rem, 3vw, 3.4rem);
+  }
+  h2 {
+    font-size: clamp(2.3rem, 3vw, 3rem);
+  }
+  h3 {
+    font-size: clamp(2.1rem, 3vw, 2.2rem);
+  }
+  p {
+    font-size: clamp(1.9rem, 3vw, 1.9rem);
+  }
+  span.font-logo_span {
+    font-size: clamp(1.7rem, 3vw, 2rem);
+  }
+  a {
+    font-size: clamp(1.7rem, 3vw, 2rem);
+  }
+}
+@media screen and (min-width: 600px) {
+  h1 {
+    font-size: clamp(4rem, 3vw, 3.6rem);
+  }
+  h2 {
+    font-size: clamp(2.3rem, 3vw, 3rem);
+  }
+  h3 {
+    font-size: clamp(2.1rem, 3vw, 2.2rem);
+  }
+  p {
+    font-size: clamp(1.9rem, 3vw, 1.9rem);
+  }
+  span.font-logo_span {
+    font-size: clamp(1.7rem, 3vw, 2rem);
+  }
+  a {
+    font-size: clamp(1.7rem, 3vw, 2rem);
+  }
+}
+@media screen and (min-width: 756px) {
+  h1 {
+    font-size: clamp(4.5rem, 3vw, 3.8rem);
+  }
+  h2 {
+    font-size: clamp(2.3rem, 3vw, 3rem);
+  }
+  h3 {
+    font-size: clamp(2.1rem, 3vw, 2.2rem);
+  }
+  p {
+    font-size: clamp(1.9rem, 3vw, 1.9rem);
+  }
+  span.font-logo_span {
+    font-size: clamp(1.7rem, 3vw, 2rem);
+  }
+  a {
+    font-size: clamp(1.7rem, 3vw, 2rem);
+  }
+}
+@media screen and (min-width: 900px) {
+  h1 {
+    font-size: clamp(4.8rem, 3vw, 4.1rem);
+  }
+  h2 {
+    font-size: clamp(2.3rem, 3vw, 3rem);
+  }
+  h3 {
+    font-size: clamp(2.1rem, 3vw, 2.2rem);
+  }
+  p {
+    font-size: clamp(1.9rem, 3vw, 1.9rem);
+  }
+  span.font-logo_span {
+    font-size: clamp(1.7rem, 3vw, 2rem);
+  }
+  a {
+    font-size: clamp(1.7rem, 3vw, 2rem);
+  }
+}
+@media screen and (min-width: 1093px) {
+  h1 {
+    font-size: clamp(4.8rem, 3vw, 5rem);
+  }
+  h2 {
+    font-size: clamp(2.3rem, 3vw, 3rem);
+  }
+  h3 {
+    font-size: clamp(2.1rem, 3vw, 2.2rem);
+  }
+  p {
+    font-size: clamp(1.9rem, 3vw, 1.9rem);
+  }
+  span.font-logo_span {
+    font-size: clamp(1.7rem, 3vw, 2rem);
+  }
+  a {
+    font-size: clamp(1.7rem, 3vw, 2rem);
+  }
+}
+@media screen and (min-width: 1400px) {
+  h1 {
+    font-size: clamp(5rem, 3vw, 5.2rem);
+  }
+  h2 {
+    font-size: clamp(2.3rem, 3vw, 3rem);
+  }
+  h3 {
+    font-size: clamp(2.1rem, 3vw, 2.2rem);
+  }
+  p {
+    font-size: clamp(1.9rem, 3vw, 1.9rem);
+  }
+  span.font-logo_span {
+    font-size: clamp(1.7rem, 3vw, 2rem);
+  }
+  a {
+    font-size: clamp(1.7rem, 3vw, 2rem);
+  }
+}
+@media screen and (min-width: 1920px) {
+  h1 {
+    font-size: clamp(5.5rem, 3vw, 6.2rem);
+  }
+  h2 {
+    font-size: clamp(2.3rem, 3vw, 3rem);
+  }
+  h3 {
+    font-size: clamp(2.1rem, 3vw, 2.2rem);
+  }
+  p {
+    font-size: clamp(1.9rem, 3vw, 1.9rem);
+  }
+  span.font-logo_span {
+    font-size: clamp(1.7rem, 3vw, 2rem);
+  }
+  a {
+    font-size: clamp(1.7rem, 3vw, 2rem);
+  }
+}
+.container {
+  margin: auto;
+  width: 100%;
+  padding: 2% 3%;
+}
+
+.main {
+  margin: auto;
+  margin-bottom: auto;
+  padding: 1rem 0rem;
+}
+.main .cta-cb {
+  margin: 6% auto 2% auto;
+  padding: 8% 2%;
+  text-align: center;
+  background-color: white;
+  border-top: 1px dashed black;
+}
+.main .cta-cb h2 {
+  font-weight: 300;
+  padding-bottom: 1.2rem;
+}
+.main .cafe {
+  border-top: 0.13rem dashed #FF5722;
+  margin: 8% auto 5% auto;
+  padding: 10% 3.5%;
+  background-color: #fffdfd;
+  border-right: 0.14rem dashed #FF5722;
+  border-bottom: 0.18rem dashed #FF5722;
+}
+.main .cafe .row {
+  margin: auto;
+  padding: 2% 1%;
+  position: relative;
+}
+.main .cafe .row .card {
+  margin: auto 0%;
+  width: 100%;
+  padding: 3% 0.222rem;
+  background-color: #fbebe6;
+  text-align: center;
+  color: #01263c;
+  font-weight: bold;
+  opacity: 0.955;
+  position: absolute;
+  z-index: 2;
+  top: 67%;
+  font-family: "lato", sans-serif;
+}
+.main .about-product {
+  width: 100%;
+  margin: auto;
+  padding: 6% 4%;
+  text-align: center;
+  max-width: 199ch;
+}
+.main .about-product h2 {
+  margin-bottom: 5%;
+}
+.main .about-product .icon-about-product {
+  width: 100%;
+  margin: auto;
+}
+.main .about-product .icon-about-product .icon-about-product_ul {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  /* align-items: stretch; */
+  margin: 9%;
+  text-align: center;
+  margin: auto;
+}
+.main .about-product .icon-about-product li {
+  flex: 1;
+  padding: 0;
+  margin: auto;
+}
+.main .about-product .icon-about-product li img {
+  max-width: 4em;
+  margin: auto;
+}
+
+.product-slider {
+  margin: auto;
+  margin-bottom: 10%;
+}
+.product-slider .slideshow-container_product .card {
+  background-color: white;
+  opacity: 0.9;
+  margin: auto;
+  display: flex;
+  padding: 1em 2%;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+.product-slider .slideshow-container_product h1, .product-slider .slideshow-container_product h3 {
+  margin-bottom: 0.2em;
+}
+.product-slider .slideshow-container_product h1 {
+  font-size: clamp(2.2rem, 3vw, 3.2rem);
+}
+.product-slider .slideshow-container_product h3 {
+  font-size: clamp(1.7rem, 3vw, 2rem);
+}
+.product-slider .slideshow-container_product .btn {
+  margin-bottom: 1.2rem;
+  font-size: clamp(1.8rem, 3vw, 1.8rem);
+}
+
+section {
+  margin-bottom: 5%;
+}
+
+@media screen and (min-width: 1020px) {
+  .main .d-block .cafe {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: stretch;
+  }
+  .main .d-block .cafe img {
+    max-height: 28em;
+    min-width: 42em;
+    object-fit: unset;
+    border-radius: 30px;
+  }
+  .main .d-block .cafe .col-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .main .d-block .cafe .col-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+.cafe-slider {
+  margin-bottom: 10%;
+}
+
+.d-block_img-cta {
+  display: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .slideshow-container {
+    display: none;
+  }
+  .d-block_img-cta {
+    display: block;
+    display: block;
+    width: 101%;
+    margin: auto;
+  }
+}
+@media screen and (min-width: 1033px) {
+  .slideshow-container {
+    display: none;
+  }
+  .d-block_img-cta {
+    display: block;
+    display: block;
+    width: 101%;
+    margin: auto;
+    max-width: 80%;
+  }
+}
+@media screen and (min-width: 1333px) {
+  .slideshow-container {
+    display: none;
+  }
+  .d-block_img-cta {
+    display: block;
+    display: block;
+    width: 101%;
+    margin: auto;
+    max-width: 60%;
+  }
+}
+@media screen and (min-width: 1533px) {
+  .slideshow-container {
+    display: none;
+  }
+  .d-block_img-cta {
+    display: block;
+    display: block;
+    width: 101%;
+    margin: auto;
+    max-width: 60%;
+  }
+}
+.filter-orange {
+  filter: invert(61%) sepia(63%) saturate(2115%) hue-rotate(341deg) brightness(96%) contrast(107%);
+}
+
+.filter-white {
+  filter: invert(95%) sepia(100%) saturate(14%) hue-rotate(213deg) brightness(104%) contrast(104%);
+}
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul,
+li {
+  list-style: none;
+}
+
+ul[role=list],
+ol[role=list] {
+  list-style: none;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+.main .cta-cb .btn {
+  background-color: #0ebac7;
+  outline: 0;
+  border: 0;
+  color: white;
+  padding: 0.8rem 2rem;
+  border-radius: 10px;
+  font-size: clamp(1.7rem, 3vw, 2rem);
+  font-weight: 400;
+  cursor: pointer;
+  transition: 1s;
+}
+.main .cta-cb .btn:hover {
+  opacity: 0.8;
+  border: 3px solid white;
+  background-color: #93e5eb;
+  color: black;
+}
+
+.slideshow-container_product .btn {
+  background-color: #d5fcff;
+  font-weight: bold;
+  font-style: bold;
+  border: black 0.2rem solid;
+  color: rgb(11, 11, 11);
+  padding: 0.8rem 1.6rem;
+  border-radius: 10px;
+  font-size: clamp(1.7rem, 3vw, 2rem);
+  font-weight: 700;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.btn:hover {
+  opacity: 0.8;
+  background-color: #0ebac7;
+  color: white;
+}
+
+footer .btn {
+  background-color: #bd0527;
+  outline: 0;
+  border: 0;
+  color: white;
+  padding: 0.4rem 1.3rem;
+  border-radius: 4px;
+  letter-spacing: 0.11em;
+  font-size: clamp(1.7rem, 3vw, 2rem);
+  font-weight: 400;
+  cursor: pointer;
+  transition: 1s;
+}
+footer .btn:hover {
+  opacity: 0.8;
+  border: 3px solid white;
+  background-color: #93e5eb;
+  color: black;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 98%;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 1% 2.5%;
+  color: white;
+  font-weight: bold;
+  font-size: clamp(1.9rem, 3vw, 1.9rem);
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.slideshow-container_cafe {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.slideshow-container_cafe .card {
+  color: #e6e612;
+  background-color: black;
+  margin: auto;
+  padding: 0.2em 3%;
+  width: 77.1%;
+  position: relative;
+  top: 50%;
+  left: 43.2%;
+  transform: translate(-60%, -78%);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.prev {
+  color: black;
+}
+
+.next {
+  color: black;
+  background-color: #bbb;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot_cafe {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: transparent;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 8s ease;
+}
+
+.active {
+  background-color: transparent;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+.hover-fadeout img {
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  margin: auto;
+  margin-bottom: 5%;
+  max-width: 88%;
+}
+
+.hover-fadeout:hover img {
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
+  max-width: 90%;
+  margin: auto;
+}
+
+.hover-fadeout_cafe img {
+  -webkit-transform: scale(0.8);
+  transform: scale(0.8);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.4s ease-in-out;
+  margin: auto;
+  margin-bottom: 5%;
+}
+
+.hover-test {
+  display: hidden;
+}
+
+.hover-fadeout_cafe:hover img {
+  -webkit-transform: scale(0.8);
+  transform: scale(0.8);
+  max-width: 98%;
+  margin: auto;
+}
+.hover-fadeout_cafe:hover img .hover-test {
+  display: block;
+  background-color: #f2f2f2;
+  color: #0d0d0d;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text_product {
+    font-size: 11px;
+  }
+}
+/* Slideshow container */
+.product-slider {
+  display: block;
+  /* Hide the images by default */
+  /* Next & previous buttons */
+  /* Position the "next button" to the right */
+  /* On hover, add a black background color with a little bit see-through */
+  /* Caption text */
+  /* Number text (1/3 etc) */
+  /* The dots/bullets/indicators */
+  /* Fading animation */
+}
+.product-slider .slideshow-container_product {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.product-slider .mySlides_product {
+  display: none;
+}
+.product-slider .prev_product, .product-slider .next_product {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.product-slider .next_product {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.product-slider .prev_product:hover, .product-slider .next_product:hover {
+  background-color: rgba(183, 170, 170, 0.8);
+}
+.product-slider .text_product {
+  color: #0d0d0d;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+.product-slider .numbertext_product {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+.product-slider .dot_product {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.product-slider .active_product, .product-slider .dot_product:hover {
+  background-color: #717171;
+}
+.product-slider .fade_product {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@keyframes fade_product {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.flex-product_parent {
+  display: none;
+}
+
+@media screen and (min-width: 1020px) {
+  .product-slider .slideshow-container_product {
+    display: block;
+  }
+  .product-slider .dots {
+    display: block;
+  }
+  .product-slider .flex-product_parent {
+    display: block;
+  }
+  .product-slider .flex-product_parent .row-product {
+    display: flex;
+    flex-direction: row;
+  }
+}
+.footer-form form {
+  display: inline-flex;
+  align-items: center;
+}
+.footer-form form input {
+  font-size: clamp(1.8rem, 3vw, 2.1rem);
+}
+
+footer {
+  background-color: black;
+  color: white;
+  font-weight: 400;
+}
+footer .row {
+  margin: auto;
+  margin: auto;
+  padding: 11% 6% 30% 6%;
+}
+footer .row li {
+  list-style: none;
+}
+footer .row .d-flex_footer-ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+footer .row .d-flex_footer-ul li {
+  margin-bottom: 1rem;
+}
+footer .row a {
+  color: white;
+  text-decoration: none;
+  border-bottom: 0.1rem solid white;
+  cursor: pointer;
+}
+footer .row .footer-form h2 {
+  margin-bottom: 4%;
+}
+footer .row .footer-form h3 {
+  margin-bottom: 6%;
+}
+footer .row ul.d-flex_footer-ul {
+  padding: 0;
+}
+.product {
+  position: relative;
+  overflow: hidden;
+  padding: 20px;
+}
+
+.product-category {
+  padding: 0 10vw;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 40px;
+  text-transform: capitalize;
+}
+
+.product-container {
+  padding: 0 10vw;
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+.product-container::-webkit-scrollbar {
+  display: none;
+}
+
+.product-card {
+  flex: 0 0 auto;
+  width: 250px;
+  height: 450px;
+  margin-right: 40px;
+}
+
+.product-image {
+  position: relative;
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
+}
+
+.product-thumb {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-btn {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 0.5rem 1rem;
+  width: 90%;
+  text-transform: capitalize;
+  border: none;
+  outline: none;
+  background: #fff;
+  border-radius: 5px;
+  transition: 0.1s;
+  cursor: pointer;
+  opacity: 0;
+  font-size: clamp(1.6rem, 3vw, 1.9rem);
+  background: #c4e1e6;
+  color: #060606;
+  border: 0.1rem solid black;
+  font-weight: 500;
+  font-family: "Lato", sans-serif;
+}
+
+.product-card:hover .card-btn {
+  opacity: 1;
+}
+
+.card-btn:hover {
+  background: #03b6d6;
+  color: #060606;
+  font-weight: 500;
+}
+
+.product-info {
+  width: 100%;
+  height: 100px;
+  padding-top: 10px;
+}
+
+.product-brand {
+  text-transform: uppercase;
+  font-size: clamp(1.1rem, 3vw, 1.6rem);
+  font-weight: 500;
+  font-family: "Lato", sans-serif;
+}
+
+.product-short-description {
+  width: 100%;
+  height: 20px;
+  line-height: 20px;
+  overflow: hidden;
+  opacity: 0.5;
+  text-transform: capitalize;
+  font-family: "Lato", sans-serif;
+  margin: 5px 0;
+}
+
+.price {
+  font-weight: 500;
+  font-size: clamp(1.6rem, 3vw, 1.6rem);
+  font-family: "Lato", sans-serif;
+}
+
+.actual-price {
+  margin-left: 20px;
+  opacity: 0.5;
+  text-decoration: line-through;
+}
+
+.pre-btn,
+.nxt-btn {
+  border: none;
+  width: 10vw;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #fff 100%);
+  cursor: pointer;
+  z-index: 8;
+}
+
+.pre-btn {
+  left: 0;
+  transform: rotate(180deg);
+}
+
+.nxt-btn {
+  right: 0;
+}
+
+.pre-btn img,
+.nxt-btn img {
+  opacity: 0.2;
+}
+
+.pre-btn:hover img,
+.nxt-btn:hover img {
+  opacity: 1;
+}
+
+.collection-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+}
+
+.collection {
+  position: relative;
+}
+
+.collection img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.collection p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  font-size: clamp(2.1rem, 3vw, 3.2rem);
+  text-transform: capitalize;
+}
+
+.collection:nth-child(3) {
+  grid-column: span 2;
+  margin-bottom: 10px;
+}
+
+header .hero-img .squigly-line {
+  position: absolute;
+  z-index: 2;
+  left: 59%;
+  top: 17%;
+  transform: translate(-50%, -50%);
+  transform: rotate(16deg);
+  max-width: 4em;
+  animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s linear infinite;
+  -moz-animation: fadeIn 5s linear infinite;
+  -o-animation: fadeIn 5s linear infinite;
+  -ms-animation: fadeIn 5s linear infinite;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+header .hero-img .squigly-line:hover {
+  opacity: 0.2;
+}
+header .hero-img .img_hero {
+  position: relative;
+}
+header .content-header h1.font-logo {
+  font-family: "oswald";
+  color: #dd3e03;
+  text-align: center;
+  font-weight: 400;
+  padding: 0rem 4%;
+  margin: auto;
+  margin-top: 1rem;
+}
+header .content-header h1.font-logo span.font-logo_span {
+  font-size: clamp(1.3rem, 3vw, 2rem);
+}
+header .content-header h3 {
+  font-family: "oswald";
+  color: #dd3e03;
+  text-align: center;
+  font-weight: 350;
+  margin: auto;
+  padding: 0 1.7em;
+}
+
+@media screen and (min-width: 390px) {
+  header .content-header h1.font-logo span.font-logo_span {
+    font-size: clamp(1.7rem, 3vw, 2rem);
+  }
+}
+@media screen and (min-width: 412px) {
+  header .content-header h1.font-logo span.font-logo_span {
+    font-size: clamp(1.7rem, 3vw, 2rem);
+  }
+}
+@media screen and (min-width: 480px) {
+  header .hero-img .squigly-line {
+    position: absolute;
+    z-index: 2;
+    left: 59%;
+    top: 20%;
+    transform: translate(-50%, -50%);
+    transform: rotate(16deg);
+    max-width: clamp(4em, 3vw, 5.4rem);
+  }
+}
+@media screen and (min-width: 525px) {
+  header .hero-img .squigly-line {
+    position: absolute;
+    z-index: 2;
+    left: 59%;
+    top: clamp(24%, 3vw, 30%);
+    transform: translate(-50%, -50%);
+    transform: rotate(16deg);
+    max-width: clamp(5em, 3vw, 5.4rem);
+  }
+}
+@media screen and (min-width: 630px) {
+  header .hero-img .squigly-line {
+    position: absolute;
+    z-index: 2;
+    left: 59%;
+    top: clamp(26%, 3vw, 35%);
+    transform: translate(-50%, -50%);
+    transform: rotate(16deg);
+    max-width: clamp(5em, 3vw, 5.4rem);
+  }
+}
+@media screen and (min-width: 700px) {
+  header .hero-img .squigly-line {
+    position: absolute;
+    z-index: 2;
+    left: 59%;
+    top: clamp(28%, 3vw, 40%);
+    transform: translate(-50%, -50%);
+    transform: rotate(16deg);
+    max-width: clamp(5em, 3vw, 5.4rem);
+  }
+}
+@media screen and (min-width: 780px) {
+  header .hero-img .squigly-line {
+    position: absolute;
+    z-index: 2;
+    left: 59%;
+    top: clamp(30%, 3vw, 45%);
+    transform: translate(-50%, -50%);
+    transform: rotate(16deg);
+    max-width: clamp(6em, 3vw, 10.4rem);
+  }
+}
+@media screen and (min-width: 820px) {
+  header .hero-img .squigly-line {
+    position: absolute;
+    z-index: 2;
+    left: 59%;
+    top: clamp(32%, 3vw, 50%);
+    transform: translate(-50%, -50%);
+    transform: rotate(16deg);
+    max-width: clamp(7em, 3vw, 13rem);
+  }
+}
+@media screen and (min-width: 820px) {
+  header .hero-img {
+    max-width: clamp(87%, 3vw, 99%);
+    margin: auto;
+  }
+  header .hero-img .squigly-line {
+    position: absolute;
+    z-index: 2;
+    left: 55%;
+    top: clamp(34%, 3vw, 55%);
+    transform: translate(-50%, -50%);
+    transform: rotate(16deg);
+    max-width: clamp(8em, 3vw, 15rem);
+  }
+}
+@media screen and (min-width: 850px) {
+  header .hero-img {
+    max-width: clamp(80%, 3vw, 95%);
+    margin: auto;
+  }
+  header .hero-img .squigly-line {
+    position: absolute;
+    z-index: 2;
+    left: 55%;
+    top: clamp(28%, 3vw, 55%);
+    transform: translate(-50%, -50%);
+    transform: rotate(16deg);
+    max-width: clamp(8em, 3vw, 15rem);
+  }
+}
+@media screen and (min-width: 997px) {
+  header .hero-img {
+    max-width: clamp(70%, 3vw, 95%);
+    margin: auto;
+  }
+  header .hero-img .squigly-line {
+    position: absolute;
+    z-index: 2;
+    left: 56%;
+    top: clamp(31%, 3vw, 55%);
+    transform: translate(-50%, -50%);
+    transform: rotate(16deg);
+    max-width: clamp(8em, 3vw, 15rem);
+  }
+}
+@media screen and (min-width: 1024px) {
+  header .hero-img {
+    max-width: clamp(70%, 3vw, 95%);
+    margin: auto;
+  }
+  header .hero-img .squigly-line {
+    position: absolute;
+    z-index: 2;
+    left: 56%;
+    top: clamp(42%, 3vw, 55%);
+    transform: translate(-50%, -50%);
+    transform: rotate(16deg);
+    max-width: clamp(8em, 3vw, 15rem);
+  }
+}
+@media screen and (min-width: 1172px) {
+  header .hero-img {
+    max-width: clamp(68%, 3vw, 95%);
+    margin: auto;
+  }
+  header .hero-img .squigly-line {
+    position: absolute;
+    z-index: 2;
+    left: 56%;
+    top: clamp(44%, 3vw, 55%);
+    transform: translate(-50%, -50%);
+    transform: rotate(16deg);
+    max-width: clamp(8em, 3vw, 15rem);
+  }
+}
+@media screen and (min-width: 1291px) {
+  header .hero-img {
+    max-width: clamp(62%, 3vw, 95%);
+    margin: auto;
+  }
+  header .hero-img .squigly-line {
+    position: absolute;
+    z-index: 2;
+    left: 56%;
+    top: clamp(30%, 3vw, 55%);
+    transform: translate(-50%, -50%);
+    transform: rotate(16deg);
+    max-width: clamp(8em, 3vw, 15rem);
+  }
+}
+@media screen and (min-width: 1438px) {
+  header .hero-img {
+    max-width: clamp(55%, 3vw, 95%);
+    margin: auto;
+  }
+  header .hero-img .squigly-line {
+    position: absolute;
+    z-index: 2;
+    left: 56%;
+    top: clamp(30%, 3vw, 55%);
+    transform: translate(-50%, -50%);
+    transform: rotate(16deg);
+    max-width: clamp(8em, 3vw, 15rem);
+  }
+}
+@media screen and (min-width: 1540px) {
+  header .hero-img {
+    max-width: clamp(50%, 3vw, 95%);
+    margin: auto;
+  }
+  header .hero-img .squigly-line {
+    position: absolute;
+    z-index: 2;
+    left: 56%;
+    top: clamp(30%, 3vw, 55%);
+    transform: translate(-50%, -50%);
+    transform: rotate(16deg);
+    max-width: clamp(8em, 3vw, 15rem);
+  }
+}
+@media screen and (min-width: 1650px) {
+  header .hero-img {
+    max-width: clamp(47%, 3vw, 95%);
+    margin: auto;
+  }
+  header .hero-img .squigly-line {
+    position: absolute;
+    z-index: 2;
+    left: 56%;
+    top: clamp(30%, 3vw, 55%);
+    transform: translate(-50%, -50%);
+    transform: rotate(16deg);
+    max-width: clamp(8em, 3vw, 15rem);
+  }
+}
+@media screen and (min-width: 1712px) {
+  header .hero-img {
+    max-width: clamp(45%, 3vw, 95%);
+    margin: auto;
+  }
+  header .hero-img .squigly-line {
+    position: absolute;
+    z-index: 2;
+    left: 54%;
+    top: clamp(30%, 3vw, 55%);
+    transform: translate(-50%, -50%);
+    transform: rotate(16deg);
+    max-width: clamp(8em, 3vw, 15rem);
+  }
+}
+@media screen and (min-width: 1846px) {
+  header .hero-img {
+    max-width: clamp(40%, 3vw, 95%);
+    margin: auto;
+  }
+  header .hero-img .squigly-line {
+    position: absolute;
+    z-index: 2;
+    left: 54%;
+    top: clamp(33%, 3vw, 55%);
+    transform: translate(-50%, -50%);
+    transform: rotate(16deg);
+    max-width: clamp(8em, 3vw, 15rem);
+  }
+}
+nav {
+  margin: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.2rem 1rem;
+}
+nav .nav-brand {
+  text-align: center;
+  max-width: 100%;
+  height: auto;
+  border: 0.3rem dashed rgba(227, 104, 38, 0.307);
+  border-radius: 55%;
+  padding: 0.4rem;
+}
+nav .nav-brand img {
+  width: 100%;
+  margin: auto;
+  max-width: 4.5em;
+}
+
+@media screen and (min-width: 480px) {
+  .nav-brand {
+    font-size: clamp(1.5rem, 3vw, 3rem);
+  }
+}
+:root {
+  /* adapt rem to to mobile initial 10px font-size */
+  font-size: 62.5%;
+  /* ------ */
+}
+
+html,
+body {
+  background-color: rgb(254, 251, 251);
+  font-family: "Oswald";
+  letter-spacing: 0.115em;
+  height: 100%;
+  font-family: var(--font);
+  font-size: var(--body-font-zise);
+  /* -------accessibility Line height (line spacing) to at least 1.5 times the font size */
+  line-height: 1.5;
+  letter-spacing: 0.075em;
+  word-spacing: 0.1em;
+  /* -------accessibility Word spacing to at least 0.16 times the font size.*/
+  /* Letter spacing (tracking) to at least 0.12 times the font size */
+}
+
+/*# sourceMappingURL=style.css.map */
